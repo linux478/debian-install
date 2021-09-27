@@ -104,7 +104,7 @@ d-i mirror/http/directory string /debian
 # Suite to install.
 #d-i mirror/suite string testing
 # Suite to use for loading installer components (optional).
-d-i mirror/udeb/suite string stable
+#d-i mirror/udeb/suite string stable
 
 ### Account setup
 # Skip creation of a root account (normal user account will be able to
